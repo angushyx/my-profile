@@ -4,7 +4,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div>
-      <Button />
+      <Button primary>按鈕</Button>
     </div>
   );
 };
