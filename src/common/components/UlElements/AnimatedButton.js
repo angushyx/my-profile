@@ -14,7 +14,6 @@ const BtnStyle = styled.button`
   appearance: none;
   color: ${text.light};
 
-  position: absolute;
   left: 500px;
   top: 500px;
 

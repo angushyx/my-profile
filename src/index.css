@@ -44,15 +44,15 @@ html {
   font-family: 'Noto Sans TC', sans-serif;
   font-family: 'Rubik', sans-serif;
   font-size: 62.5%;
-   background: var(--color-bg-1);
-   height: 100vh;
+
+  height: 100vh;
 }
 body {
   box-sizing: border-box;
   background: white;
   margin: 0;
   padding: 0;
- 
+  background: var(--color-bg-1);
 }
 
 

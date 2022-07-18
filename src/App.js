@@ -1,7 +1,7 @@
 import React, { lazy } from "react";
 import { useRoutes } from "react-router-dom";
+import Footer from "./common/components/Footer/Footer";
 // import Navigation from "./common/components/Navigation/Navigation";
-// import Footer from "./common/components/Footer/Footer";
 // import CampaignBanner from "./pages/Misc/CampaignBanner";
 // import { LoadingSpinner } from "./common/components/UIElements/loadingAnimations";
 
@@ -21,7 +21,12 @@ const routeConfig = [
 // }
 const App = () => {
   const element = useRoutes(routeConfig);
-  return <>{element}</>;
+  return (
+    <>
+      {element}
+      <Footer />
+    </>
+  );
 };
 
 export default App;
